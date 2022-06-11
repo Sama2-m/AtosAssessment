@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Php_Travels_Test_Cases" class="navigator-link">
+              <span class="suite-name border-failed">Php Travels Test Cases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Php_Travels_Test_Cases" class="navigator-link ">
+                    <span>D:\automation practice\Atos\TechAssessment\testSuite\TechAssessment.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Php_Travels_Test_Cases" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Php_Travels_Test_Cases" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Php_Travels_Test_Cases" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Php_Travels_Test_Cases" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Php_Travels_Test_Cases" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Php_Travels_Test_Cases" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Php_Travels_Test_Cases" class="hide-methods failed suite-Php_Travels_Test_Cases"> (hide)</a> <!-- hide-methods failed suite-Php_Travels_Test_Cases -->
+                      <a href="#" panel-name="suite-Php_Travels_Test_Cases" class="show-methods failed suite-Php_Travels_Test_Cases"> (show)</a> <!-- show-methods failed suite-Php_Travels_Test_Cases -->
+                    </span>
+                    <div class="method-list-content failed suite-Php_Travels_Test_Cases">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Php_Travels_Test_Cases" title="PhpTravelsTestCases.loginSuccessullyTest" class="method navigator-link" hash-for-method="loginSuccessfullyTest(sama.moez@gmail.com, Test@Atos, Samaa)">loginSuccessfullyTest(sama.moez@gmail.com, Test@Atos, Samaa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Php_Travels_Test_Cases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Php_Travels_Test_Cases" class="hide-methods passed suite-Php_Travels_Test_Cases"> (hide)</a> <!-- hide-methods passed suite-Php_Travels_Test_Cases -->
+                      <a href="#" panel-name="suite-Php_Travels_Test_Cases" class="show-methods passed suite-Php_Travels_Test_Cases"> (show)</a> <!-- show-methods passed suite-Php_Travels_Test_Cases -->
+                    </span>
+                    <div class="method-list-content passed suite-Php_Travels_Test_Cases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Php_Travels_Test_Cases" title="PhpTravelsTestCases.validateFirstNameIsMandatoryTest" class="method navigator-link" hash-for-method="ValidateFirstNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., fir...)">ValidateFirstNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., fir...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Php_Travels_Test_Cases" title="PhpTravelsTestCases.validateLastNameIsMandatoryTest" class="method navigator-link" hash-for-method="ValidateLastNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., las...)">ValidateLastNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., las...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Php_Travels_Test_Cases" title="PhpTravelsTestCases.validateMailIsMandatoryTest" class="method navigator-link" hash-for-method="VerifyMailIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Customer, Please fill out this field., ...)">VerifyMailIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Customer, Please fill out this field., ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Php_Travels_Test_Cases" title="PhpTravelsTestCases.validatePasswordIsMandatoryTest" class="method navigator-link" hash-for-method="VerifyPasswordIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Supplier, Please fill out this field., ...)">VerifyPasswordIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Supplier, Please fill out this field., ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Php_Travels_Test_Cases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Php_Travels_Test_Cases" class="panel Php_Travels_Test_Cases">
+          <div class="suite-Php_Travels_Test_Cases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">PhpTravelsTestCases.loginSuccessullyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccessfullyTest(sama.moez@gmail.com, Test@Atos, Samaa)">
+                  </a> <!-- loginSuccessfullyTest(sama.moez@gmail.com, Test@Atos, Samaa) -->
+                  <span class="method-name">loginSuccessfullyTest</span>
+                  <span class="parameters">(sama.moez@gmail.com, Test@Atos, Samaa)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;breadcrumb-content&apos;]//child::h2&quot;}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SMSTFA-LT-10667&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SAMAA~1.MOS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f862755243f643a50ce5fcb46580f2fd
+*** Element info: {Using=xpath, value=//div[@class=&apos;breadcrumb-content&apos;]//child::h2}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.dashboardPage.getWelcomeMsg(dashboardPage.java:25)
+	at PhpTravelsTestCases.loginSuccessullyTest.loginSuccessfullyTest(loginSuccessullyTest.java:61)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Php_Travels_Test_Cases-class-failed -->
+          <div class="suite-Php_Travels_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PhpTravelsTestCases.validateFirstNameIsMandatoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateFirstNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., fir...)">
+                  </a> <!-- ValidateFirstNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., fir...) -->
+                  <span class="method-name">ValidateFirstNameIsmandatoryTest</span>
+                  <span class="parameters">(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., first_name)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Php_Travels_Test_Cases-class-passed -->
+          <div class="suite-Php_Travels_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PhpTravelsTestCases.validateLastNameIsMandatoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLastNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., las...)">
+                  </a> <!-- ValidateLastNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., las...) -->
+                  <span class="method-name">ValidateLastNameIsmandatoryTest</span>
+                  <span class="parameters">(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., last_name)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Php_Travels_Test_Cases-class-passed -->
+          <div class="suite-Php_Travels_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PhpTravelsTestCases.validatePasswordIsMandatoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPasswordIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Supplier, Please fill out this field., ...)">
+                  </a> <!-- VerifyPasswordIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Supplier, Please fill out this field., ...) -->
+                  <span class="method-name">VerifyPasswordIsmandatoryTest</span>
+                  <span class="parameters">(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Supplier, Please fill out this field., password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Php_Travels_Test_Cases-class-passed -->
+          <div class="suite-Php_Travels_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PhpTravelsTestCases.validateMailIsMandatoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMailIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Customer, Please fill out this field., ...)">
+                  </a> <!-- VerifyMailIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Customer, Please fill out this field., ...) -->
+                  <span class="method-name">VerifyMailIsmandatoryTest</span>
+                  <span class="parameters">(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Customer, Please fill out this field., email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Php_Travels_Test_Cases-class-passed -->
+        </div> <!-- panel Php_Travels_Test_Cases -->
+        <div panel-name="test-xml-Php_Travels_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\automation practice\Atos\TechAssessment\testSuite\TechAssessment.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Php Travels Test Cases&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Php Travels Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PhpTravelsTestCases.loginSuccessullyTest&quot;/&gt;
+      &lt;class name=&quot;PhpTravelsTestCases.validateFirstNameIsMandatoryTest&quot;/&gt;
+      &lt;class name=&quot;PhpTravelsTestCases.validateLastNameIsMandatoryTest&quot;/&gt;
+      &lt;class name=&quot;PhpTravelsTestCases.validateMailIsMandatoryTest&quot;/&gt;
+      &lt;class name=&quot;PhpTravelsTestCases.validatePasswordIsMandatoryTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Php Travels Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Php Travels Test Cases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Php_Travels_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Php Travels Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Php Travels Test Cases (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Php_Travels_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Php Travels Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Php_Travels_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Php Travels Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Php_Travels_Test_Cases');
+function tableData_Php_Travels_Test_Cases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginSuccessfullyTest')
+data.setCell(0, 2, 'PhpTravelsTestCases.loginSuccessullyTest')
+data.setCell(0, 3, 21645);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidateFirstNameIsmandatoryTest')
+data.setCell(1, 2, 'PhpTravelsTestCases.validateFirstNameIsMandatoryTest')
+data.setCell(1, 3, 1641);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyMailIsmandatoryTest')
+data.setCell(2, 2, 'PhpTravelsTestCases.validateMailIsMandatoryTest')
+data.setCell(2, 3, 1632);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyPasswordIsmandatoryTest')
+data.setCell(3, 2, 'PhpTravelsTestCases.validatePasswordIsMandatoryTest')
+data.setCell(3, 3, 1607);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ValidateLastNameIsmandatoryTest')
+data.setCell(4, 2, 'PhpTravelsTestCases.validateLastNameIsMandatoryTest')
+data.setCell(4, 3, 1588);
+window.suiteTableData['Php_Travels_Test_Cases']= { tableData: data, tableDiv: 'times-div-Php_Travels_Test_Cases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Php_Travels_Test_Cases">
+              </div> <!-- times-div-Php_Travels_Test_Cases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Php_Travels_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Php Travels Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Php_Travels_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Php_Travels_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">PhpTravelsTestCases.loginSuccessullyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">2061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginSuccessfullyTest(sama.moez@gmail.com, Test@Atos, Samaa)</span>
+                <span class="method-start">3847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShotOnFailure([TestResult name=loginSuccessfullyTest status=FAILURE method=loginSuccessullyTest.loginSuccessfullyT...)</span>
+                <span class="method-start">25509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">25629 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PhpTravelsTestCases.validateFirstNameIsMandatoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">25720 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">27414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateFirstNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., fir...)</span>
+                <span class="method-start">29054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShotOnFailure([TestResult name=ValidateFirstNameIsmandatoryTest status=SUCCESS method=validateFirstNameIsMandatory...)</span>
+                <span class="method-start">30698 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">30700 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PhpTravelsTestCases.validateLastNameIsMandatoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">30916 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">31669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateLastNameIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Agent, Please fill out this field., las...)</span>
+                <span class="method-start">37656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShotOnFailure([TestResult name=ValidateLastNameIsmandatoryTest status=SUCCESS method=validateLastNameIsMandatoryTe...)</span>
+                <span class="method-start">39246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">39248 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PhpTravelsTestCases.validateMailIsMandatoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">39406 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">40233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyMailIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Customer, Please fill out this field., ...)</span>
+                <span class="method-start">42010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShotOnFailure([TestResult name=VerifyMailIsmandatoryTest status=SUCCESS method=validateMailIsMandatoryTest.VerifyM...)</span>
+                <span class="method-start">43644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">43645 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PhpTravelsTestCases.validatePasswordIsMandatoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">43839 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">44555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyPasswordIsmandatoryTest(Samaa, Mostafa, 01025291670, sama.moez@gmail.com, Test@Atos, Supplier, Please fill out this field., ...)</span>
+                <span class="method-start">46092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShotOnFailure([TestResult name=VerifyPasswordIsmandatoryTest status=SUCCESS method=validatePasswordIsMandatoryTest...)</span>
+                <span class="method-start">47701 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">47703 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

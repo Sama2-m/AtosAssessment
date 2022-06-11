@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Php Travels Test Cases">
+	<parameter name="browser" value="chrome" />
+	<test name="Php Travels Test Cases">
+		<classes>
+			<class name="PhpTravelsTestCases.loginSuccessullyTest" />
+			<class name="PhpTravelsTestCases.validateFirstNameIsMandatoryTest" />
+			<class name="PhpTravelsTestCases.validateLastNameIsMandatoryTest" />
+			<class name="PhpTravelsTestCases.validateMailIsMandatoryTest" />
+			<class name="PhpTravelsTestCases.validatePasswordIsMandatoryTest" />
+		</classes>
+	</test>
+</suite>

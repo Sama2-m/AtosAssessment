@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite data-provider-thread-count="3" name="Failed suite [YouTube TCs]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="YouTube parallel search(failed)">
+    <classes>
+      <class name="YouTubeTestCases.VideoSearchTestScenario1">
+        <methods>
+          <include name="searchForVideoScenario1" invocation-numbers="0"/>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="BeforeMethod"/>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- YouTubeTestCases.VideoSearchTestScenario1 -->
+      <class name="YouTubeTestCases.VideoSearchTestScenario3">
+        <methods>
+          <include name="startDriver"/>
+          <include name="searchForVideoScenario1" invocation-numbers="0"/>
+          <include name="closeDriver"/>
+          <include name="BeforeMethod"/>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- YouTubeTestCases.VideoSearchTestScenario3 -->
+      <class name="YouTubeTestCases.VideoSearchTestScenario2">
+        <methods>
+          <include name="startDriver"/>
+          <include name="searchForVideoScenario1" invocation-numbers="0"/>
+          <include name="closeDriver"/>
+          <include name="BeforeMethod"/>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- YouTubeTestCases.VideoSearchTestScenario2 -->
+    </classes>
+  </test> <!-- YouTube parallel search(failed) -->
+</suite> <!-- Failed suite [YouTube TCs] -->

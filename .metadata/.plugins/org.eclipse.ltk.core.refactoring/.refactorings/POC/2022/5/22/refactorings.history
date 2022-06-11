@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Reporter.java&apos; to &apos;MyStore/src/main/java/utilities&apos;&#x0D;&#x0A;- Original project: &apos;POC&apos;&#x0D;&#x0A;- Destination element: &apos;MyStore/src/main/java/utilities&apos;&#x0D;&#x0A;- Original element: &apos;poc.utils.Reporter.java&apos;" description="Copy compilation unit" destination="=MyStore/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;utilities" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;poc.utils{Reporter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1653683835449" units="1" version="1.0"/>
+</session>
